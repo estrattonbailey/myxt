@@ -1,0 +1,31 @@
+{
+  "name": "merge-transform",
+  "version": "0.0.1",
+  "description": "Merge X and Y CSS transform values.",
+  "source": "index.js",
+  "module": "dist/merge-transform.es.js",
+  "jsnext:main": "dist/merge-transform.es.js",
+  "main": "dist/merge-transform.js",
+  "umd:main": "dist/merge-transform.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch --compress false",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/merge-transform.git"
+  },
+  "author": "iamkevingreen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/merge-transform/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/merge-transform#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
