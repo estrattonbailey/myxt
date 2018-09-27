@@ -1,4 +1,4 @@
-# merge-transform
+# myxt
 Merge util for X and Y-axis 2D CSS transforms. **267 bytes gzipped.**
 
 *Does not support `translate3d()` or `matrix3d()` values.*
@@ -17,7 +17,7 @@ Given a box:
 This library allows you to merge additional `translateY` and `translateX`
 values:
 ```javascript
-import tx from 'merge-transform'
+import tx from 'myxt'
 
 const transform = tx(document.getElementById('root'))
 

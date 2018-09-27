@@ -1,12 +1,12 @@
 {
-  "name": "merge-transform",
+  "name": "myxt",
   "version": "0.0.1",
-  "description": "Merge X and Y CSS transform values.",
+  "description": "Merge util for X and Y-axis 2D CSS transforms.",
   "source": "index.js",
-  "module": "dist/merge-transform.es.js",
-  "jsnext:main": "dist/merge-transform.es.js",
-  "main": "dist/merge-transform.js",
-  "umd:main": "dist/merge-transform.umd.js",
+  "module": "dist/myxt.es.js",
+  "jsnext:main": "dist/myxt.es.js",
+  "main": "dist/myxt.js",
+  "umd:main": "dist/myxt.umd.js",
   "files": [
     "dist"
   ],
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/estrattonbailey/merge-transform.git"
+    "url": "git+ssh://git@github.com/estrattonbailey/myxt.git"
   },
-  "author": "iamkevingreen",
+  "author": "estrattonbailey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/estrattonbailey/merge-transform/issues"
+    "url": "https://github.com/estrattonbailey/myxt/issues"
   },
-  "homepage": "https://github.com/estrattonbailey/merge-transform#readme",
+  "homepage": "https://github.com/estrattonbailey/myxt#readme",
   "devDependencies": {
     "microbundle": "^0.4.4"
   }
